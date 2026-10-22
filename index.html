@@ -32,8 +32,25 @@
   <!-- No more Firebase SDK needed - using Cloudflare Worker backend -->
   
   <link rel="stylesheet" href="style.css">
+<style id="discontinued-style">
+html,body{height:100%;overflow:hidden!important;}
+#discontinued{position:fixed;inset:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(7,11,20,.96);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+#discontinued .box{max-width:460px;width:100%;text-align:center;background:#0f172a;border:1px solid rgba(148,163,184,.25);border-radius:22px;padding:34px 26px;color:#e8edf6;box-shadow:0 30px 80px rgba(0,0,0,.5);}
+#discontinued h1{margin:0 0 10px;font-size:24px;line-height:1.25;}
+#discontinued p{margin:0 0 24px;color:#9aa7bd;font-size:15.5px;line-height:1.55;}
+#discontinued a{display:block;padding:14px 18px;border-radius:14px;background:linear-gradient(135deg,#7c3aed,#3b82f6);color:#fff;font-weight:600;font-size:16px;text-decoration:none;}
+#discontinued a:focus-visible{outline:3px solid #fff;outline-offset:3px;}
+</style>
 </head>
 <body>
+<div id="discontinued" role="dialog" aria-modal="true" aria-labelledby="discTitle">
+  <div class="box">
+    <h1 id="discTitle">This website has been discontinued</h1>
+    <p>Cirkle recruitment now has a new home. Tap the button to see current openings.</p>
+    <a href="https://teamcirkle.co.uk/#recruitment">We have moved to a new recruitment page</a>
+  </div>
+</div>
+
   <!-- Public Header -->
   <header id="public-header">
     <div class="logo">
