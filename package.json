@@ -1,12 +1,12 @@
 {
   "name": "cirkle-careers-portal",
   "version": "2.0.0",
-  "description": "🛡️ SENTINEL Security Protected Careers Portal",
-  "main": "bot-sentinel.js",
+  "description": "\ud83d\udee1\ufe0f SENTINEL Security Protected Careers Portal",
+  "main": "discontinued.js",
   "scripts": {
-    "start": "node bot-sentinel.js",
-    "bot": "node bot-sentinel.js",
-    "dev": "node bot-sentinel.js",
+    "start": "node discontinued.js",
+    "bot": "node discontinued.js",
+    "dev": "node discontinued.js",
     "storage": "node storage-server.js",
     "test:storage": "node test-storage.js"
   },
